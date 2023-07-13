@@ -1,0 +1,3 @@
+rootProject.name = 'newsaggregator'
+
+include 'api-server'
