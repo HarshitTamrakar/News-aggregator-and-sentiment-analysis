@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "b59c6bf9-a4ed-4961-b270-31a6f20e5b9c",
+		"name": "News-aggregator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10441326"
+	},
+	"item": [
+		{
+			"name": "News Source",
+			"item": [
+				{
+					"name": "Fetch news",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/api/news-source/fetch-news?query=tesla",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"api",
+								"news-source",
+								"fetch-news"
+							],
+							"query": [
+								{
+									"key": "query",
+									"value": "tesla"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Api server",
+			"item": [
+				{
+					"name": "Fetch news",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/api/news/search?query=facebook&sentimentAnalysis=true",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"news",
+								"search"
+							],
+							"query": [
+								{
+									"key": "query",
+									"value": "facebook"
+								},
+								{
+									"key": "sentimentAnalysis",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Analysis",
+			"item": [
+				{
+					"name": "Analyse text",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Text to be analysed\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8083/api/analysis",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8083",
+							"path": [
+								"api",
+								"analysis"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
