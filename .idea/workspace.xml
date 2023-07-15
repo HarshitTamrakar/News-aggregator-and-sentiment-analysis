@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31ff8db2-a121-411e-be84-9c3af28501a3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="31ff8db2-a121-411e-be84-9c3af28501a3" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/analysis/src/main/java/com/newsaggregator/AnalysisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/src/main/java/com/newsaggregator/client/OpenAIClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/src/main/java/com/newsaggregator/controller/AnalysisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/src/main/java/com/newsaggregator/service/AnalysisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/newsaggregator/client/AnalysisServiceHttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/newsaggregator/client/NewsSourceServiceHttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/newsaggregator/controller/NewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/newsaggregator/service/NewsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/client/src/main/java/com/newsaggregator/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/model/src/main/java/com/newsaggregator/model/request/AnalysisRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/model/src/main/java/com/newsaggregator/model/request/OpenAIRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/model/src/main/java/com/newsaggregator/model/response/AnalysisResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/model/src/main/java/com/newsaggregator/model/response/NewsSourceResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/model/src/main/java/com/newsaggregator/model/response/OpenAIResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newssource/src/main/java/com/newsaggregator/client/NewsSourceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newssource/src/main/java/com/newsaggregator/controller/NewsSourceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newssource/src/main/java/com/newsaggregator/service/NewsSourceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newssource/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +52,15 @@
         <task path="$PROJECT_DIR$/api-server">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/newssource">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/common/kafka">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/common/client">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -44,6 +76,44 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="newsaggregator" type="f1a62948:ProjectNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="newsaggregator" type="f1a62948:ProjectNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
+                <item name="client" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="newsaggregator" type="f1a62948:ProjectNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
+                <item name="client" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="newsaggregator" type="f1a62948:ProjectNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
+                <item name="client" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="newsaggregator" type="f1a62948:ProjectNode" />
+                <item name="newssource" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="newsaggregator" type="f1a62948:ProjectNode" />
+                <item name="newssource" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="newsaggregator" type="f1a62948:ProjectNode" />
+                <item name="newssource" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
@@ -54,6 +124,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -63,6 +140,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -70,6 +148,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="service-api-server" />
+                    <option name="lastUsedInstant" value="1689267520" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
                     <option name="lastUsedInstant" value="1689267181" />
@@ -96,24 +178,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/newsaggregator/api-server&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "service-api-server",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Projects/newsaggregator/api-server",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.newsaggregator.Main" />
-      <module name="newsaggregator.api-server.main" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\newsaggregator\common\client\src\main\java\com\newsaggregator" />
+      <recent name="D:\Projects\newsaggregator\common\model\src\main\java\com\newsaggregator" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.AnalysisApplication">
+    <configuration name="AnalysisApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.newsaggregator.AnalysisApplication" />
+      <module name="newsaggregator.analysis.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.newsaggregator.*" />
@@ -124,84 +219,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.newsaggregator.apiserver.ApiServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.newsaggregator.apiserver.ApiServerApplication" />
+    <configuration name="ApiServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.newsaggregator.ApiServerApplication" />
       <module name="newsaggregator.api-server.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.newsaggregator.apiserver.*" />
+          <option name="PATTERN" value="com.newsaggregator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="newsaggregator [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="newsaggregator:api-server [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/api-server" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="bootRun" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="newsaggregator:api-server [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/api-server" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
-      <method v="2" />
     </configuration>
     <configuration name="newsaggregator:apiserver [:apiserver:ApiServerApplication.main()]" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
@@ -225,21 +254,87 @@
       <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="newsaggregator:common:client [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/common/client" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="newsaggregator:common:client [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/common/client" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="newsaggregator:common:client [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/common/client" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.com.newsaggregator.apiserver.ApiServerApplication" />
+      <item itemvalue="Application.AnalysisApplication" />
+      <item itemvalue="Application.ApiServerApplication" />
       <item itemvalue="Gradle.newsaggregator:apiserver [:apiserver:ApiServerApplication.main()]" />
-      <item itemvalue="Gradle.newsaggregator:api-server [bootRun]" />
-      <item itemvalue="Gradle.newsaggregator:api-server [build]" />
-      <item itemvalue="Gradle.newsaggregator [build]" />
+      <item itemvalue="Gradle.newsaggregator:common:client [bootJar]" />
+      <item itemvalue="Gradle.newsaggregator:common:client [build]" />
+      <item itemvalue="Gradle.newsaggregator:common:client [clean]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Gradle.newsaggregator:api-server [bootRun]" />
-        <item itemvalue="Application.com.newsaggregator.apiserver.ApiServerApplication" />
-        <item itemvalue="Gradle.newsaggregator:api-server [build]" />
-        <item itemvalue="Gradle.newsaggregator [build]" />
+        <item itemvalue="Application.AnalysisApplication" />
+        <item itemvalue="Gradle.newsaggregator:common:client [build]" />
+        <item itemvalue="Gradle.newsaggregator:common:client [bootJar]" />
+        <item itemvalue="Gradle.newsaggregator:common:client [clean]" />
+        <item itemvalue="Application.ApiServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -252,6 +347,14 @@
       <option name="presentableId" value="Default" />
       <updated>1689261578195</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1689267452078</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689267452078</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
