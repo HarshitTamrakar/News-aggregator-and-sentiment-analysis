@@ -17,10 +17,10 @@ java {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
     implementation 'org.springframework.boot:spring-boot-starter-web'
-}
-
-tasks.named('test') {
-    useJUnitPlatform()
+    compileOnly 'org.projectlombok:lombok:1.18.28'
+    annotationProcessor 'org.projectlombok:lombok:1.18.28'
+    implementation project(":common:model")
+    implementation project(":common:client")
 }
