@@ -16,9 +16,6 @@ import lombok.extern.jackson.Jacksonized;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class NewsSourceResponse {
 
-    int offset;
-    int number;
-    int available;
     List<News> news;
 
     @Data
