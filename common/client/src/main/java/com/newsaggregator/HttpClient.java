@@ -47,7 +47,7 @@ public class HttpClient {
             response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
             log.debug("Received response: {} for request: {}", response, request);
             if (response.statusCode() != HttpStatus.OK.value()) {
-                throw new IOException();
+                throw new IOException(response.body());
             }
             return parseResponse(response, classType);
         } catch (JsonProcessingException e) {
