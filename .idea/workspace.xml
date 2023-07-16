@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31ff8db2-a121-411e-be84-9c3af28501a3" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/analysis-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/src/main/java/com/newsaggregator/AnalysisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/analysis-service/src/main/java/com/newsaggregator/AnalysisApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/src/main/java/com/newsaggregator/client/OpenAIClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/analysis-service/src/main/java/com/newsaggregator/client/OpenAIClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/src/main/java/com/newsaggregator/controller/AnalysisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/analysis-service/src/main/java/com/newsaggregator/controller/AnalysisController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/src/main/java/com/newsaggregator/service/AnalysisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/analysis-service/src/main/java/com/newsaggregator/service/AnalysisService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/analysis-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newssource/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/news-source-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newssource/src/main/java/com/newsaggregator/NewsSourceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-source-service/src/main/java/com/newsaggregator/NewsSourceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newssource/src/main/java/com/newsaggregator/client/NewsSourceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-source-service/src/main/java/com/newsaggregator/client/NewsSourceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newssource/src/main/java/com/newsaggregator/controller/NewsSourceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-source-service/src/main/java/com/newsaggregator/controller/NewsSourceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newssource/src/main/java/com/newsaggregator/service/NewsSourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-source-service/src/main/java/com/newsaggregator/service/NewsSourceService.java" afterDir="false" />
+    <list default="true" id="31ff8db2-a121-411e-be84-9c3af28501a3" name="Changes" comment="Renamed modules to service">
+      <change afterPath="$PROJECT_DIR$/analysis-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/newssource/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/news-source-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,11 +287,19 @@
       <option name="project" value="LOCAL" />
       <updated>1689267452078</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Renamed modules to service">
+      <created>1689505564626</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689505564627</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Renamed modules to service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed modules to service" />
   </component>
 </project>
