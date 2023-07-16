@@ -15,12 +15,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8082/api/news-source/fetch-news?query=tesla",
+							"raw": "http://localhost:8080/api/news-source/fetch-news?query=tesla",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8082",
+							"port": "8080",
 							"path": [
 								"api",
 								"news-source",
@@ -47,12 +47,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8081/api/news/search?query=facebook&sentimentAnalysis=true",
+							"raw": "http://localhost:8080/api/news/search?query=microsoft&sentimentAnalysis=true",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8081",
+							"port": "8080",
 							"path": [
 								"api",
 								"news",
@@ -61,7 +61,7 @@
 							"query": [
 								{
 									"key": "query",
-									"value": "facebook"
+									"value": "microsoft"
 								},
 								{
 									"key": "sentimentAnalysis",
@@ -84,7 +84,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"text\": \"Text to be analysed\"\r\n}",
+							"raw": "{\r\n    \"text\": \"I am feeling happy\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -92,12 +92,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8083/api/analysis",
+							"raw": "http://localhost:8080/api/analysis",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8083",
+							"port": "8080",
 							"path": [
 								"api",
 								"analysis"
