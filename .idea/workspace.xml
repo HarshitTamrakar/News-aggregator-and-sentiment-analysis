@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31ff8db2-a121-411e-be84-9c3af28501a3" name="Changes" comment="Renamed modules to service">
-      <change afterPath="$PROJECT_DIR$/analysis-service/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="31ff8db2-a121-411e-be84-9c3af28501a3" name="Changes" comment="Updated .gitignore file">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newssource/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/news-source-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,12 +291,34 @@
       <option name="project" value="LOCAL" />
       <updated>1689505564627</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Renamed modules to service">
+      <created>1689505731113</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689505731113</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Renamed modules to service">
+      <created>1689506055541</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689506055541</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated .gitignore file">
+      <created>1689506169456</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689506169456</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Renamed modules to service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed modules to service" />
+    <MESSAGE value="Updated .gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated .gitignore file" />
   </component>
 </project>
