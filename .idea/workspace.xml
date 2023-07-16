@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31ff8db2-a121-411e-be84-9c3af28501a3" name="Changes" comment="Renamed modules to service">
-      <change afterPath="$PROJECT_DIR$/analysis-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newssource/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/news-source-service/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="31ff8db2-a121-411e-be84-9c3af28501a3" name="Changes" comment="Renamed modules to service" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -294,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689505564627</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Renamed modules to service">
+      <created>1689505731113</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689505731113</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
