@@ -1,5 +1,6 @@
 rootProject.name = 'newsaggregator'
 
-include 'api-server', 'common', 'news-source-service', 'common:model', 'common:client', 'analysis-service'
+include 'api-server', 'common', 'news-source-service',
+        'common:model', 'common:client', 'analysis-service', 'discovery-server', 'api-gateway'
 findProject(':common:model')?.name = 'model'
 findProject(':common:client')?.name = 'client'
