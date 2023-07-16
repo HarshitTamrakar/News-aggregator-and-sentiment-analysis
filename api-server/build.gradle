@@ -15,12 +15,21 @@ java {
     sourceCompatibility = '17'
 }
 
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:2022.0.3"
+    }
+}
+
 dependencies {
+    implementation project(":common:model")
+    implementation project(":common:client")
+
     implementation 'org.springframework.boot:spring-boot-starter'
     implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+
     compileOnly 'org.projectlombok:lombok:1.18.28'
     annotationProcessor 'org.projectlombok:lombok:1.18.28'
-    implementation project(":common:model")
-    implementation project(":common:client")
 }

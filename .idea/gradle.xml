@@ -9,10 +9,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/analysis-service" />
+            <option value="$PROJECT_DIR$/api-gateway" />
             <option value="$PROJECT_DIR$/api-server" />
             <option value="$PROJECT_DIR$/common" />
             <option value="$PROJECT_DIR$/common/client" />
             <option value="$PROJECT_DIR$/common/model" />
+            <option value="$PROJECT_DIR$/discovery-server" />
             <option value="$PROJECT_DIR$/news-source-service" />
           </set>
         </option>
