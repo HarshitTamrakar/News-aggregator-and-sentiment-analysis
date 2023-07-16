@@ -5,29 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31ff8db2-a121-411e-be84-9c3af28501a3" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/analysis/src/main/java/com/newsaggregator/AnalysisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/src/main/java/com/newsaggregator/client/OpenAIClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/src/main/java/com/newsaggregator/controller/AnalysisController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/src/main/java/com/newsaggregator/service/AnalysisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/newsaggregator/client/AnalysisServiceHttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/newsaggregator/client/NewsSourceServiceHttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/newsaggregator/controller/NewsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/newsaggregator/service/NewsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/client/src/main/java/com/newsaggregator/HttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/model/src/main/java/com/newsaggregator/model/request/AnalysisRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/model/src/main/java/com/newsaggregator/model/request/OpenAIRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/model/src/main/java/com/newsaggregator/model/response/AnalysisResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/model/src/main/java/com/newsaggregator/model/response/NewsSourceResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/model/src/main/java/com/newsaggregator/model/response/OpenAIResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newssource/src/main/java/com/newsaggregator/client/NewsSourceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newssource/src/main/java/com/newsaggregator/controller/NewsSourceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newssource/src/main/java/com/newsaggregator/service/NewsSourceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newssource/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/analysis-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/src/main/java/com/newsaggregator/AnalysisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/analysis-service/src/main/java/com/newsaggregator/AnalysisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/src/main/java/com/newsaggregator/client/OpenAIClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/analysis-service/src/main/java/com/newsaggregator/client/OpenAIClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/src/main/java/com/newsaggregator/controller/AnalysisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/analysis-service/src/main/java/com/newsaggregator/controller/AnalysisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/src/main/java/com/newsaggregator/service/AnalysisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/analysis-service/src/main/java/com/newsaggregator/service/AnalysisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/analysis-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newssource/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/news-source-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newssource/src/main/java/com/newsaggregator/NewsSourceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-source-service/src/main/java/com/newsaggregator/NewsSourceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newssource/src/main/java/com/newsaggregator/client/NewsSourceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-source-service/src/main/java/com/newsaggregator/client/NewsSourceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newssource/src/main/java/com/newsaggregator/controller/NewsSourceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-source-service/src/main/java/com/newsaggregator/controller/NewsSourceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newssource/src/main/java/com/newsaggregator/service/NewsSourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-source-service/src/main/java/com/newsaggregator/service/NewsSourceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newssource/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/news-source-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,55 +60,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="newsaggregator" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="newsaggregator" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="newsaggregator" type="f1a62948:ProjectNode" />
-                <item name="common" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="newsaggregator" type="f1a62948:ProjectNode" />
-                <item name="common" type="2d1252cf:ModuleNode" />
-                <item name="client" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="newsaggregator" type="f1a62948:ProjectNode" />
-                <item name="common" type="2d1252cf:ModuleNode" />
-                <item name="client" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="newsaggregator" type="f1a62948:ProjectNode" />
-                <item name="common" type="2d1252cf:ModuleNode" />
-                <item name="client" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="newsaggregator" type="f1a62948:ProjectNode" />
-                <item name="newssource" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="newsaggregator" type="f1a62948:ProjectNode" />
-                <item name="newssource" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="newsaggregator" type="f1a62948:ProjectNode" />
-                <item name="newssource" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -149,16 +92,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="service-api-server" />
-                    <option name="lastUsedInstant" value="1689267520" />
+                    <option name="branchName" value="renaming-modules" />
+                    <option name="lastUsedInstant" value="1689504113" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
                     <option name="lastUsedInstant" value="1689267181" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1689267151" />
                   </RecentBranch>
                 </list>
               </option>
@@ -184,7 +123,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "service-api-server",
+    "git-widget-placeholder": "renaming-modules",
+    "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "D:/Projects/newsaggregator/api-server",
     "project.structure.last.edited": "Modules",
@@ -208,20 +148,25 @@
   <component name="RunManager" selected="Application.AnalysisApplication">
     <configuration name="AnalysisApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.newsaggregator.AnalysisApplication" />
-      <module name="newsaggregator.analysis.main" />
+      <module name="newsaggregator.analysis-service.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.newsaggregator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.newsaggregator.ApiServerApplication" />
-      <module name="newsaggregator.api-server.main" />
+    <configuration name="NewsSourceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.newsaggregator.NewsSourceApplication" />
+      <module name="newsaggregator.news-source-service.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.newsaggregator.*" />
@@ -321,8 +266,8 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.NewsSourceApplication" />
       <item itemvalue="Application.AnalysisApplication" />
-      <item itemvalue="Application.ApiServerApplication" />
       <item itemvalue="Gradle.newsaggregator:apiserver [:apiserver:ApiServerApplication.main()]" />
       <item itemvalue="Gradle.newsaggregator:common:client [bootJar]" />
       <item itemvalue="Gradle.newsaggregator:common:client [build]" />
@@ -331,10 +276,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.AnalysisApplication" />
+        <item itemvalue="Application.NewsSourceApplication" />
         <item itemvalue="Gradle.newsaggregator:common:client [build]" />
         <item itemvalue="Gradle.newsaggregator:common:client [bootJar]" />
         <item itemvalue="Gradle.newsaggregator:common:client [clean]" />
-        <item itemvalue="Application.ApiServerApplication" />
       </list>
     </recent_temporary>
   </component>
