@@ -1,4 +1,4 @@
-# News Sentiment Analysis Project
+# News Aggregator and Sentiment Analysis
 This project is a Spring Boot microservice project that fetches news articles from an external source based on the provided query parameter and performs sentiment analysis using Chat GPT. It leverages various technologies and features to achieve efficient and accurate sentiment analysis on news articles. The aim of the project is to analyze the sentiment of news articles and provide insights into the overall sentiment of the content.
 
 # Features
